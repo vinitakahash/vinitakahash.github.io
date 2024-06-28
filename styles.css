@@ -21,7 +21,6 @@ hr{
 /* header */
 header {
     background-color: #00205b;
-    border-bottom: 3px solid #ef6a01;
     position: sticky;
     top: 0;
     z-index: 3;
@@ -89,22 +88,26 @@ button:hover{background-color: #ef6a01;}
 /* home */  
 
 .botao-slides{
-    background-color: #00205b; 
-    margin-left: 11vw; 
+    background-color: transparent; 
+    margin-left: 26vw; 
     margin-top: 30vw; 
     position: absolute; 
     padding: 20px; 
+    border: 1px solid #ef6a01;
     border-radius: 30px; 
-    cursor: pointer;}
+    cursor: pointer;
+    transition: 0.8s;
+    }
 
 .botao-slides:hover{
-    background-color: #ef6a01; 
-    color: #eee;}
+    border: 1px solid #00205b;
+    background-color: #00205b; 
+    color: #ef6a01;}
 
-.botao-slides a{
+.botao-slides > a{
+    color: #ef6a01;
     text-decoration: none; 
-    font-size: 18px; 
-    color: #eee;}
+    font-size: 18px;}
 
 
 /* Main Banner */
@@ -195,15 +198,14 @@ mark{
 .services-container{
     background-color: #00205b;
     border-top: 2px solid white;
-    border-top: 3px solid #ef6a01;
-    border-bottom: 3px solid #ef6a01;
+   
 }
 
 .services-container img{margin-top: 20px;}
 .services-container p{color: #FFF;}
 .services-container h3{
     font-size: 20px;
-    color: #EEE; 
+    color: #ef6a01; 
     padding: 15px;}
 
 .services-container ul{display: flex; width: 90%; margin: 0 auto;}
@@ -433,7 +435,6 @@ mark{
 
 /* footer */
 footer{
-    border-top: 4px solid #ef6a01;
     color: #ef6a01;
     text-align: center;
     font-size: 20px;
@@ -809,7 +810,7 @@ section.slider{
         width: 150px;}
 
     .pricing-container{background-size: 105% 30vh;}
-    .pricing-container p{font-size: 20px;}
+    .pricing-container p{font-size: 16px; width: 200px; margin: auto;}
 
     #aviso{width: 80%;}
 
@@ -818,7 +819,27 @@ section.slider{
 
     caption{font-size: 15px;}
 
-    .servico, .preco{font-size: 13px;}
+    .sobre > p{width: 280px; font-size: 15px;}
+
+    .plan .price{
+        width: 125px;
+        height: 125px;}
+
+    #price-instalacao img{
+        height: 160px;}
+    
+    #price-manutencao img{
+        height: 180px;}
+    
+    #price-materiais img{
+        margin-top: 10px;
+        margin-left: -33px;
+        height: 140px;}
+
+        
+    .servico, .preco{ font-size: 14px;}
+
+    
 
 }
 @media screen and (max-width:380px){
@@ -829,7 +850,7 @@ section.slider{
         margin: 0px 0px 0px -40px;
     }
 
-    .sobre > p{width: 200px; font-size: 16px;}
+    .sobre > p{width: 280px; font-size: 14px;}
 
     .logo img{width: 110px; left: 30px;}
 }
