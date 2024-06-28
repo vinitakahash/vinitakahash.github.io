@@ -151,7 +151,6 @@ mark{background-color: transparent; color: #ef6a01;}
 .sobre > p{
     color: #00205b;
     margin: 50px 100px 100px 100px;
-    font-weight: 100;
     font-style: normal;
     font-size: 22px;
     width: 60%;
@@ -173,10 +172,10 @@ mark{background-color: transparent; color: #ef6a01;}
 }
 
 .services-container img{margin-top: 20px;}
-.services-container p{color: #eee;}
+.services-container p{color: #FFF;}
 .services-container h3{
     font-size: 20px;
-    color: #ef6a01; 
+    color: #EEE; 
     padding: 15px;}
 
 .services-container ul{display: flex; width: 90%; margin: 0 auto;}
@@ -494,13 +493,14 @@ table{
 }
 
 caption{
+    background-color: #ef6a01;
+    padding: 15px;
+    border: 1px solid #eee;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #eee;
     text-transform: uppercase;
     font-size: 1.5em;
     font-weight: bold;
-    padding: 10px;
-    border: 2px solid #fff;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .table-instalacao, .table-materiais{
@@ -513,27 +513,31 @@ caption{
 }
 
 td, th{
-    border: 2px solid #fff;
+    border: 1px solid #ef6a01;
     border-top: none;
     padding: 15px;
-    background-color: #333;
     font-family: Arial, Helvetica, sans-serif;
 }
 td{
-    background-color: transparent;
+    background-color: #00205b;
     color: white;
-    border: 1px solid white;
+    border: 1px solid #ef6a01;
     font-size: 17px;
     font-weight: 100;
     font-family: serif;
+    border-right: none;
 }
+
+.item{color: #eee;}
+.preco{background-color: #ef6a01; border: 1px solid #eee;}
 
 thead, tfoot{
     color: #fff;
     border-top: none;
 }
 
-.mark-lista{color: #ffa500;}
+
+
 
 /* SLIDES */
 section.slider{
