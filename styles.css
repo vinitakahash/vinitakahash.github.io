@@ -735,7 +735,9 @@ section.slider{
     .pricing-container p{font-size: 20px;}
     #aviso{width: 80%;}
 
-    caption{font-size: 14px;}
+
+    .modal-content-instalacao{width: 90%;}
+    caption{font-size: 15px;}
     .servico, .preco{font-size: 13px;}
 
 }
