@@ -180,7 +180,7 @@ mark{
 
 .sobre > p{
     color: #00205b;
-    margin: 50px 100px 100px 100px;
+    margin: 50px 100px 0px 100px;
     font-style: normal;
     font-size: 22px;
     width: 60%;
@@ -822,20 +822,40 @@ section.slider{
     .sobre > p{width: 280px; font-size: 15px;}
 
     .plan .price{
-        width: 125px;
-        height: 125px;}
+        width: 130px;
+        height: 135px;}
 
     #price-instalacao img{
-        height: 160px;}
+        height: 140px;
+        margin-top: 10px;}
     
-    #price-manutencao img{
-        height: 180px;}
-    
-    #price-materiais img{
-        margin-top: 10px;
-        margin-left: -33px;
-        height: 140px;}
+        
+        #price-materiais img{
+            margin-top: 10px;
+            margin-left: -33px;
+            height: 140px;}
+            
+        #price-manutencao img{
+            height: 150px;
+            margin-right:-18px;
+            margin-top: -15px;}
 
+            .plan .plan-btn-solicitar, #plan-btn-recommended{
+                border-radius: 20px;
+                font-size: 19px;
+                height: 50px;
+                line-height: 50px;
+                width: 50%;
+                margin: auto;}
+
+                .openModalBtn{
+                    border-radius: 10px;
+                    padding: 15px;
+                    margin-top: 20px;
+                    width: 80%;
+                    height: 50%;
+                  
+                }
         
     .servico, .preco{ font-size: 14px;}
 
