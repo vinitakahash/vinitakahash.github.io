@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesform.css">
+</head>
+<style>
+</style>
+<body>
+    <div class="container">
+        <div class="navbar-container">
+            <nav>
+                <a href="#">
+                    <img src="./logo.png" alt="JC Elétrica & Solar" class="logo"/>
+                </a>
+            <ul class="navbar-items">
+                <li>
+                    <a href="#" class="default-btn">Voltar</a>
+                </li>
+                
+            </ul>
+            </nav>
+           
+        </div>
+
+    <div class="container-form">
+        <div class="header">
+            <h1>Instalações Elétricas</h1>
+            <p>Preencha o máximo de informação para melhor compreensão do serviço solicitado.</p>
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p>INSTALAÇÕES</p>
+            </div>
+            <div class="form-body">
+            <div class="box-input">
+                <label for="name">Nome Completo:<span class="required-field">*</span></label>
+                <input type="text" name="tittle" id="name" class="block" placeholder=" Informe seu nome completo" required />
+            </div>
+
+            <div>
+                <label for="contato">Contato:<span class="required-field">*</span></label>
+                <input type="number" name="contato" id="contato" class="block" placeholder="(+55) XX XXX-XX">
+            </div>
+
+            <div>
+                <label for="estado">Estado:</label>
+                <select name="estado" required>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="PB">Paraiba</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="BA">Bahia</option>
+                    <option value="PI">Piauí</option>
+                    <option value="CE">Ceará</option>
+                    <option value="MA">Maranhão</option>
+                </select>
+            </div>
+ 
+            <div class="box-input">
+                <label for="bairro">Bairro:<span class="required-field">*</span></label>
+                <input type="text" name="bairro" id="price" class="block" placeholder="Informe o bairro do respectivo estado" required />
+            </div>
+
+            <div class="box-input">
+                <label for="endereco">Endereço:<span class="required-field">*</span></label>
+                <input type="text" name="endereco" id="price" class="block" placeholder="Informe o endereço do local" required />
+            </div>
+
+            <div>
+                <label for="cep">CEP:<span class="required-field">*</span></label>
+                <input type="number" name="cep" id="cep">
+            </div>
+           
+            <div class="box-input">
+                <label for="installation-option">Instalação Elétrica:<span class="required-field">*</span></label>
+                <input type="text" list="installation-option" name="installation-option" placeholder=" Selecione ou Informe instalação elétrica que deseja" required>
+        
+                <datalist id="installation-option">
+                    <option value="Interrupetores"></option>
+                    <option value="Dimmers"></option>
+                    <option value="Luminária"></option>
+                    <option value="Lampadas"></option>
+                </datalist>
+            <a href="#"><i>Clique aqui para visualizar tabela de serviços elétricos.</i></a>
+                </div>
+
+            <div class="box-input">
+                <label for="comment" id="comment">Descreva melhor a solicitação:<span class="required-field"> Opcional. </span></label>
+                <textarea name="comment" class="block"></textarea>
+                </div>
+
+            <div class="box-input">
+                <label for="model">Estabelecimento<span class="required-field">*</span></label>
+                <input type="text" list="estabelecimento" name="estabelecimento" id="model" class="block" placeholder="Informe qual é o estabelecimento"/>
+                <datalist id="estabelecimento">
+                    <option value="Residência"></option>
+                    <option value="Comércio"></option>
+                    <option value="Escola"></option>
+                    <option value="Instituição"></option>
+                </datalist>
+            </div>
+            <div class="box-input">
+                <p>Gostaria de receber notificações de nossas ofertas e anúncios pelo e-mail?</p>
+                <input type="radio" name="opcao" id="manual"/>
+                <label for="manual">Sim</label>
+                <input type="radio" name="opcao" id="auto"/>
+                <label for="auto">Não</label>
+            </div>
+    
+            <div class="box-input">
+                <p>Para melhor compreensão, anexar documentos ou fotografia concernentes há solicitação: <span class="required-field">Opcional. </span></p>
+                <input type="file" multiple accept="image/png, image/jpg" id="images" name="images"/>
+            </div>
+            <input type="submit" value="enviar" class="btn-submit"/>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h2>JC - Elétrica & Solar @2024</h2>
+        <p>Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
