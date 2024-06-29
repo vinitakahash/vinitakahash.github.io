@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-body{background-color: #EEE;}
+body{background-color: #D8D8D8;}
 
 h1,h2{color: #fff;}
 h3{
@@ -170,7 +170,7 @@ mark{
     justify-content: center;
     align-items: center;
     flex-direction: column;  
-    background-color: #eee;
+   
 }
 
 .sobre img{
@@ -315,7 +315,7 @@ mark{
     font-weight: 600;
     color: #00205b;
     cursor: pointer;
-    background-color: #eee;
+    background-color: #D8D8D8;
     text-transform: uppercase;
     transition: 0.5s;
     margin: auto;
@@ -562,7 +562,7 @@ td, th{
 td{
     background-color: #00205b;
     color: white;
-    border: 1px solid #ef6a01;
+    border: 1px solid #eee;
     font-size: 17px;
     font-weight: 100;
     font-family: serif;
@@ -572,7 +572,7 @@ td{
 .item{color: #eee;}
 
 .preco{
-    background-color: #ef6a01; 
+    background-color: #00205b; 
     border: 1px solid #eee;}
 
 thead, tfoot{
@@ -814,6 +814,10 @@ section.slider{
 
     #aviso{width: 80%;}
 
+    .logo-branca{width: 10%;}
+
+    .contact-container h2{font-size: 23px;}
+
 
     .modal-content-instalacao{width: 90%;}
 
@@ -858,9 +862,6 @@ section.slider{
                 }
         
     .servico, .preco{ font-size: 14px;}
-
-    
-
 }
 @media screen and (max-width:380px){
 
