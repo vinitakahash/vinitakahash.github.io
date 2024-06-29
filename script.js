@@ -76,8 +76,39 @@ window.onclick = function(event) {
 }
 
 
+var iconMateriais = document.getElementById('icon-materiais');
+var iconInstalacao = document.getElementById('icon-instalacao');
+var iconManutencao = document.getElementById('icon-manutencao');
 
 
+
+function open_menu_materiais(){
+
+    document.querySelector('.menu-lista-materiais').style.display = "block"
+    document.querySelector('.menu-lista-instalacao').style.display = "none"
+    document.querySelector('.menu-lista-sistema').style.display = "none"
+
+    document.getElementById('price-materiais').style.background = "#ef6a01"
+    document.getElementById('price-instalacao').style.background = "#00205b"
+    document.getElementById('price-manutencao').style.background = "#00205b"
+    
+
+    document.querySelector('.descricao-servico-instalacao').style.display = "block"
+    document.querySelector('.descricao-servico-materiais').style.display = "none"
+    document.querySelector('.descricao-servico-manutencao').style.display = "block"
+
+    document.getElementById('openModalBtnMateriais').style.display = "block"
+    document.getElementById('openModalBtnInstalacao').style.display = "none"
+    document.getElementById('openModalBtnManutencao').style.display = "none"
+
+    document.getElementById('plan-name-instalacao').style.color = '#111'
+    document.getElementById('plan-name-manutencao').style.color = '#111'
+    document.getElementById('plan-name-materiais').style.color = '#ef6a01'
+
+    iconMateriais.src = 'icone-laranja.png';
+    iconManutencao.src = 'icone-azul.png';
+    iconInstalacao.src = 'icone-azul.png';
+}
 
 
 function open_menu_instalacao(){
@@ -102,16 +133,13 @@ function open_menu_instalacao(){
     document.getElementById('plan-name-manutencao').style.color = '#111'
     document.getElementById('plan-name-materiais').style.color = '#111'
 
-
-    
-
-
-    
-    
+    iconInstalacao.src = 'icone-laranja.png';
+    iconMateriais.src = 'icone-azul.png';
+    iconManutencao.src = 'icone-azul.png';
 }
+
+
 function open_menu_sistema(){
-
-
     document.querySelector('.menu-lista-sistema').style.display = "block"
     document.querySelector('.menu-lista-instalacao').style.display = "none"
     document.querySelector('.menu-lista-materiais').style.display = "none"
@@ -131,32 +159,8 @@ function open_menu_sistema(){
     document.getElementById('plan-name-instalacao').style.color = '#111'
     document.getElementById('plan-name-manutencao').style.color = '#ef6a01'
     document.getElementById('plan-name-materiais').style.color = '#111'
-  
-}
-function open_menu_materiais(){
 
-
-    document.querySelector('.menu-lista-materiais').style.display = "block"
-    document.querySelector('.menu-lista-instalacao').style.display = "none"
-    document.querySelector('.menu-lista-sistema').style.display = "none"
-
-    document.getElementById('price-materiais').style.background = "#ef6a01"
-    document.getElementById('price-instalacao').style.background = "#00205b"
-    document.getElementById('price-manutencao').style.background = "#00205b"
-    
-
-    document.querySelector('.descricao-servico-instalacao').style.display = "block"
-    document.querySelector('.descricao-servico-materiais').style.display = "none"
-    document.querySelector('.descricao-servico-manutencao').style.display = "block"
-
-    document.getElementById('openModalBtnMateriais').style.display = "block"
-    document.getElementById('openModalBtnInstalacao').style.display = "none"
-    document.getElementById('openModalBtnManutencao').style.display = "none"
-
-    document.getElementById('plan-name-instalacao').style.color = '#111'
-    document.getElementById('plan-name-manutencao').style.color = '#111'
-    document.getElementById('plan-name-materiais').style.color = '#ef6a01'
-
-    
-
+    iconManutencao.src = 'icone-laranja.png';
+    iconInstalacao.src = 'icone-azul.png';
+    iconMateriais.src = 'icone-azul.png';
 }

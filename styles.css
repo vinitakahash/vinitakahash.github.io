@@ -208,9 +208,19 @@ mark{
     color: #ef6a01; 
     padding: 15px;}
 
-.services-container ul{display: flex; width: 90%; margin: 0 auto;}
-.services-container li{flex: 1 1 200px; list-style:none; text-align: center; padding: 20px;}
-.services-container p{line-height: 24px;}
+.services-container ul{
+    display: flex; 
+    width: 90%; 
+    margin: 0 auto;}
+
+.services-container li{
+    flex: 1 1 200px; 
+    list-style:none; 
+    text-align: center; 
+    padding: 20px;}
+
+.services-container p{
+    line-height: 24px;}
 
 /* prices and plans */
 .pricing-container{
@@ -260,7 +270,7 @@ mark{
 }
 
 .plan{
-    margin-top: 0px;
+    margin-top: 80px;
     flex: 1;
     max-width: 300px;
     margin: 0px 20;
@@ -560,7 +570,7 @@ td, th{
 }
 
 td{
-    background-color: #00205b;
+    background-color: #111;
     color: white;
     border: 1px solid #eee;
     font-size: 17px;
