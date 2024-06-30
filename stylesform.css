@@ -4,7 +4,7 @@
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;}
 
-body{background-color: #111;}
+body{background-color: #D8D8D8;}
 
 h1,h2,h3,h4,h5{color: #333;}
 p,label{color: #444;}
@@ -47,14 +47,10 @@ textarea{
     padding: 0 2rem;
     position: sticky;
     top: 0;
-    background-color: #fff;
     z-index: 1;
-    border-bottom: 1px solid #ef6a01;
-    background-color: #222;}
+    border-bottom: 1px solid #ef6a01;}
     
-    .nav{position: relative;}
-
-.logo{ height: 50px; width: 180px; margin-top: 12px; margin-left: 20px;}
+.nav{position: relative;}
 
 .navbar-items{
     display: flex;
@@ -93,25 +89,7 @@ textarea{
     color: #ef6a01;
     }
 
-/* page header */
-.header{
-    height: 160px;
-    padding: 20px;
-    background-color: #333;
-    text-align: center;
-}
-.header h1{
-    text-align: center;
-    color: #ef6a01;
-    margin-top: 40px;
-    }
-    
-.header p{
-    margin-top: 10px;
-    color: white;
-        }
-        
-        
+
 /* form container */
 .form-container{
     border: 1px solid #ef6a01;
@@ -120,7 +98,6 @@ textarea{
     width: 90%;
     margin: 0 auto;
     position: relative;
-    top: -62px;
     margin-top: 50px;
 }
 
@@ -203,11 +180,12 @@ textarea{
     background-color: #fff;
     z-index: 1;
     border-bottom: 1px solid #ef6a01;
-    background-color: #222;}
+    background-color: #00205b;
+}
 
 .nav{position: relative;}
 
-.logo{height: 50px; width: 180px; margin-top: 12px; margin-left: 20px;}
+.logo{height: 50px; width: 170px; margin-top: 12px; margin-left: 20px;}
 
 .navbar-items{
     display: flex;
@@ -283,7 +261,7 @@ footer{
     font-weight: bold;
     margin: 0px 0 100px;
 }
-footer h2{font-size: 20px; color: #ef6a01;}
+footer h2{margin-top: 50px; font-size: 20px; color: #ef6a01;}
 footer p{font-size: 15px; color: #999;}
 
 @media (max-width:576px){
