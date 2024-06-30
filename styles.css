@@ -243,6 +243,27 @@ mark{
     margin-top: 10px; 
     height: 180px;}
 
+
+#icon-manutencao{
+    width: 30px;
+    margin-top: 12px;
+    position: absolute; 
+    margin-left: -50px;
+}
+
+#icon-instalacao{
+    position: absolute; 
+    margin: auto; 
+    margin-left: -50px;
+    margin-top: 12px;
+    width: 30px;}
+
+#icon-materiais{
+    position: absolute;
+    left: 80px;
+    margin-top: 12px; 
+    width:30px}
+
 .pricing-container p{
     color: #00205b;
     font-size: 25px;
@@ -377,6 +398,7 @@ mark{
     color: #fff;}
 
 /* contact form */
+
 .contact-container{
     text-align: center;
     padding: 5rem 0 2rem 0;
@@ -396,7 +418,7 @@ mark{
     margin-bottom: 100px; 
     color: #eee;}
 
-.contact-container p{margin-top: -35px;}
+
 
 .contact-container input,
 .contact-container textarea{
@@ -440,6 +462,12 @@ mark{
     color: #fff;
     background-color: #ef6a01;
 }
+
+.contact-container p{
+    font-size: 18px;
+    margin: auto;
+    margin-top: 20px;
+    width: 35%;}
 
 .circle img{width: 300px;}
 
@@ -872,6 +900,10 @@ section.slider{
                 }
         
     .servico, .preco{ font-size: 14px;}
+
+    .contact-container p{
+        font-size: 13px;
+        width: 90%;}
 }
 @media screen and (max-width:380px){
 

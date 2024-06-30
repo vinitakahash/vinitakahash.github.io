@@ -139,23 +139,23 @@
                     
         
                     <div class="slide-box primeiro">
-                        <img class="img-desktop" src="./desktop-sistemafotovoltaico.png" alt="slide 1">
+                        <img class="img-desktop" src="" alt="slide 1">
                         <img class="img-mobile" src="./mobile-placas.png" alt="slide 1">
                     </div>
         
                     <div class="slide-box">
-                        <img class="img-desktop" src="./desktop-carregadores.png" alt="slide 2">
+                        <img class="img-desktop" src="" alt="slide 2">
                         <img class="img-mobile" src="./mobile-carregadores.png" alt="slide 2">
                     </div>
         
                     <div class="slide-box">
-                        <img class="img-desktop" src="./desktop-materiais.png" alt="slide 3">
+                        <img class="img-desktop" src="" alt="slide 3">
                         <img class="img-mobile" src="./mobile-materiais.png" alt="slide 3">
                     </div>
         
                     <div class="slide-box">
-                        <img class="img-desktop" src="./img/4.png" alt="slide 4">
-                        <img class="img-mobile" src="./mobile-manutencao.png" alt="slide 4">
+                        <img class="img-desktop" src="" alt="slide 4">
+                        <img class="img-mobile" src="./mobile-manutencoes.png" alt="slide 4">
                     </div>
         
                     <div class="nav-auto">
@@ -211,7 +211,7 @@
                             
                             <li class="price" id="price-materiais" onclick="open_menu_materiais()"><img src="./materiais.png" alt=""></li>
                             <li class="plan-name" id="plan-name-materiais">
-                                <img src="./icone-azul.png" alt="" style="position: absolute; left: 80px; margin-top: 12px;" width="30" id="icon-materiais">
+                                <img src="./icone-azul.png" alt="icone azul" id="icon-materiais">
                                 Materiais
                             </li>
                             <p id="descricao-servico" class="descricao-servico-materiais">Distribuimos materiais elétricos para todo o Norte-Nordeste. Desde ferramentas, acessórios e demais produtos para sua obra, projeto ou casa.</p>
@@ -235,7 +235,7 @@
                         <ul>
                             <li class="price" id="price-instalacao" onclick="open_menu_instalacao()"><img src="./placas.png" alt=""></li>
                             <li class="plan-name" id="plan-name-instalacao">
-                                <img src="./icone-azul.png" alt="" style="position: absolute; left: 80px; margin-top: 12px;" width="30" id="icon-instalacao">
+                                <img src="./icone-azul.png" alt="icone azul" id="icon-instalacao">
                                 Instalação
                             </li>
                             
@@ -256,7 +256,7 @@
                         <ul>
                             <li class="price recommended" id="price-manutencao" onclick="open_menu_sistema()"><img src="./manutencao.png" alt=""></li>
                             <li class="plan-name" id="plan-name-manutencao">
-                                <img src="./icone-azul.png" alt="" style="position: absolute; left: 80px; margin-top: 12px;" width="30" id="icon-manutencao">
+                                <img src="./icone-azul.png" alt="icone azul" id="icon-manutencao">
                                 Manutenção
                             </li>
                             <p id="descricao-servico" class="descricao-servico-manutencao">Realizamos insperções em sistemas Elétricos, Limpezas de Módulos, Manutenções Elétricas e Averigação de Segurança elétrica.</p>
@@ -288,14 +288,19 @@
             <br>
                 <br>
             <h2>Solicitar Orçamento</h2>
-                <label for="informacao">Suas Informações:</label>
+
+        <form action="https://formsubmit.co/joavincusferdlbqt@gmail.com" method="POST">
+                <label for="cliente">Suas Informações:</label>
+                <label for="nome"></label>
+                <label for="contato"></label>
                 <br>
                 <br>
-                <input type="text" name="informacao" id="name" placeholder="Nome completo" required>
-                <input type="text" name="informacao" id="contato" placeholder="Contato" required>
+                <input type="text" name="nome" placeholder="Nome completo" required>
+                <input type="text" name="contato" id="contato" placeholder="Contato" required>
                 <br>
                 <br>
-                    <label for="estado">Localização:</label>
+                    <label for="localidade">Localização:</label>
+                    <label for="estado"></label>
                     <br>
                     <br>
                     <select name="estado" required>
@@ -310,14 +315,20 @@
                         <option value="MA">Maranhão</option>
                     </select>
 
-                <input type="text" name="estado" id="endereco" placeholder="Informe seu endereço" required>
+                <label for="endereco"></label>
+
+                <input type="text" name="endereco" id="endereco" placeholder="Informe seu endereço" required>
+                <p>Descreva minuciosamente o que deseja ou precisa, em até 4hrs um especialista da JC - Elétrica & Solar entrará em contato para tirar dúvidas ou realizar seu orçamento.</p>
                 <br>
                 <br>
-                <label for="message">Descreva minuciosamente o que deseja <br> e em até 4 horas um especialista entrará em contato.</label>
-                <br>
-                <br>
-                <textarea name="message" id="message" placeholder="Descreva o que você precisa..."></textarea>
+                <label for="solicito"></label>
+                <textarea name="solicito" placeholder="Descreva o que você precisa..." rows="5" cols="33"></textarea>
                 <input type="submit" value="Enviar">
+
+                <input type="hidden" name="_subject" value="Solicitação de Orçamento">
+                <input type="text" name="_honey" style="display: none">
+                <input type="hidden" name="_captcha" value="false">
+            </form>
             </section>
         </main>
 

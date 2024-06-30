@@ -32,13 +32,13 @@
             </div>
             <div class="form-body">
             <div class="box-input">
-                <label for="name">Nome Completo:<span class="required-field">*</span></label>
-                <input type="text" name="tittle" id="name" class="block" placeholder=" Informe seu nome completo" required />
+                <label for="nome">Nome Completo:<span class="required-field">*</span></label>
+                <input type="text" name="nome" id="name" class="block" placeholder=" Informe seu nome completo" required />
             </div>
 
             <div>
-                <label for="contato">Contato:<span class="required-field">*</span></label>
-                <input type="number" name="contato" id="contato" class="block" placeholder="(+55) XX XXX-XX">
+                <label for="telefone">Contato:<span class="required-field">*</span></label>
+                <input type="number" name="telefone" id="contato" class="block" placeholder="(+55) XX XXX-XX">
             </div>
 
             <div>
@@ -72,8 +72,8 @@
             </div>
            
             <div class="box-input">
-                <label for="installation-option">Instalação Elétrica:<span class="required-field">*</span></label>
-                <input type="text" list="installation-option" name="installation-option" placeholder=" Selecione ou Informe instalação elétrica que deseja" required>
+                <label for="instalacao">Instalação Elétrica:<span class="required-field">*</span></label>
+                <input type="text" list="installation-option" name="instalacao" placeholder=" Selecione ou Informe instalação elétrica que deseja" required>
         
                 <datalist id="installation-option">
                     <option value="Interrupetores"></option>
@@ -85,8 +85,8 @@
                 </div>
 
             <div class="box-input">
-                <label for="comment" id="comment">Descreva melhor a solicitação:<span class="required-field"> Opcional. </span></label>
-                <textarea name="comment" class="block"></textarea>
+                <label for="descricao" id="comment">Descreva melhor a solicitação:<span class="required-field"> Opcional. </span></label>
+                <textarea name="descricao" class="block"></textarea>
                 </div>
 
             <div class="box-input">
@@ -102,7 +102,7 @@
     
             <div class="box-input">
                 <p>Para melhor compreensão, anexar documentos ou fotografia concernentes há solicitação: <span class="required-field">Opcional. </span></p>
-                <input type="file"  multiple accept="image/png, image/jpg" id="images" name="images"/>
+                <input type="file"  multiple accept="image/png, image/jpg" id="images" name="documentos"/>
             </div>
             <div>
             <input type="submit" value="enviar" class="btn-submit"/>
