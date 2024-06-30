@@ -45,49 +45,12 @@ textarea{
 .navbar-container{
     height: 80px;
     padding: 0 2rem;
-    position: sticky;
-    top: 0;
-    z-index: 1;
-    border-bottom: 1px solid #ef6a01;}
+    background-color: #fff;
+    border-bottom: 1px solid #ef6a01;
+    background-color: #00205b;
+}
     
 .nav{position: relative;}
-
-.navbar-items{
-    display: flex;
-    position: absolute;
-    right: 0;
-    height: 80px;
-    line-height: 80px;
-    margin: 0;
-    display: inline-block;
-}
-.navbar-items li{
-    display: inline-block;
-    text-transform: uppercase;
-    margin-right: 00px;
-    }
-    
-    .navbar-items a{
-    color: #fff;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.navbar-items a:hover{
-    color: #ef6a01;}
-
-    .navbar-items .default-btn{
-    padding: 15px 20px;
-    background-color: #ef6a01;
-    border-radius: 5px;
-    margin-right: 50px;
-    color: white;
-}
-
-.navbar-items .default-btn:hover{
-    background-color: #fff;
-    color: #ef6a01;
-    }
 
 
 /* form container */
@@ -108,8 +71,8 @@ textarea{
 }
 .form-header p {
     color: #ef6a01;
-    border-bottom: 2px solid #ef6a01;
-    width: 120px;
+    border-bottom: 1px solid #ef6a01;
+    width: 300px;
     text-align: center;
     margin: 0 auto;
     text-transform: uppercase;
@@ -156,36 +119,25 @@ textarea{
 }
 
 .btn-submit{
-    background-color: #333;
-    color: #fff;
-    border: 2px solid transparent;
+    background-color: transparent;
+    color: #ef6a01;
+    border: 1px solid #ef6a01;
     width: 150px;
     height: 50px;
     cursor: pointer;
     text-transform: uppercase;
-    transition: 0.5s;
     margin-left: 43%;
+    transition: 0.9s;
 }
 .btn-submit:hover{
-    background-color: #fff;
-    color: #333;
+    background-color: #ef6a01;
+    color: #fff;
     border-color: 1px solid #333;
-}
-
-.navbar-container{
-    height: 80px;
-    padding: 0 2rem;
-    position: sticky;
-    top: 0;
-    background-color: #fff;
-    z-index: 1;
-    border-bottom: 1px solid #ef6a01;
-    background-color: #00205b;
 }
 
 .nav{position: relative;}
 
-.logo{height: 50px; width: 170px; margin-top: 12px; margin-left: 20px;}
+.logo{height: auto; width: 180px; margin-top: 12px; margin-left: 20px;}
 
 .navbar-items{
     display: flex;
@@ -213,7 +165,7 @@ textarea{
 
 .navbar-items .default-btn{
     padding: 15px 20px;
-    background-color: #ef6a01;
+    border: 1px solid #ef6a01;
     border-radius: 5px;
     margin-right: 50px;
     color: white;
@@ -266,6 +218,28 @@ footer p{font-size: 15px; color: #999;}
 
 @media (max-width:576px){
     .btn-submit, input[type="radio"]{margin-left: 40%;}
+    
+    #name{width: 70%;}
 
     input[type="file"]{margin-left: -10%; border: none;}
+
+
+
+        .navbar-container{
+        height: 70px;}
+
+        .navbar-items{
+        line-height: 70px;}
+    
+        .navbar-items .default-btn{
+            padding: 10px 10px;
+            margin-right: 20px;
+            font-size: 13px;
+        }
+
+        .logo{width: 150px; margin-top: 14px;}
+
+        .btn-submit{margin-left: 30%;}
+        
+    
 }
