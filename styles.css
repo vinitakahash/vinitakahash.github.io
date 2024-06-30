@@ -93,19 +93,18 @@ button:hover{background-color: #ef6a01;}
     margin-top: 30vw; 
     position: absolute; 
     padding: 20px; 
-    border: 1px solid #ef6a01;
+    background-color: #ef6a01;
     border-radius: 30px; 
     cursor: pointer;
     transition: 0.8s;
     }
 
 .botao-slides:hover{
-    border: 1px solid #00205b;
     background-color: #00205b; 
     color: #ef6a01;}
 
 .botao-slides > a{
-    color: #ef6a01;
+    color: #fff;
     text-decoration: none; 
     font-size: 18px;}
 
@@ -905,6 +904,8 @@ section.slider{
     .contact-container p{
         font-size: 13px;
         width: 90%;}
+
+    .modal{background-image: url('./background-mobile-table.png');}
 }
 @media screen and (max-width:380px){
 
@@ -917,6 +918,4 @@ section.slider{
     .sobre > p{width: 280px; font-size: 14px;}
 
     .logo img{width: 100px; left: 30px;}
-
-    .modal{background-image: url('./background-mobile-table.png');}
 }
