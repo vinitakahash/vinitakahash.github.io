@@ -109,6 +109,9 @@ button:hover{background-color: #ef6a01;}
 
 
 /* Main Banner */
+
+.icones{width: 80px;}
+
 .main-banner{
     display: flex;
     flex-direction: column;
@@ -798,6 +801,9 @@ td{
     .contact-container .elemento{width: 100%;}
     .contact-container .logo-branca{width: 85%;}
 
+
+
+
 }
 
 
@@ -923,4 +929,6 @@ td{
     .sobre > p{width: 280px; font-size: 14px;}
 
     .logo img{width: 100px; left: 30px;}
+
+    .icones{width: 65px;}
 }
