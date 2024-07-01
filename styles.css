@@ -512,9 +512,15 @@ footer > p{
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-image: url('./background-table-desktop.png');
-    background-repeat: no-repeat;
-    background-size:cover;
+    background-color: #00205b;
+    border: none;
+}
+
+.logo-table{
+    display: flex; 
+    width: 150px; 
+    margin: auto; 
+    margin-bottom: 20px;
 }
 
 /* Estilo para o conteúdo do modal */
@@ -551,22 +557,24 @@ footer > p{
 
 .close-instalacao:hover,
 .close-instalacao:focus{
-    color: #ef6a01;
+    color: #fff;
     text-decoration: none;
     cursor: pointer;
 }
 .close-manutencao:hover,
 .close-manutencao:focus{
-    color: black;
+    color: #fff;
     text-decoration: none;
     cursor: pointer;
 }
 .close-materiais:hover,
 .close-materiais:focus{
-    color: black;
+    color: #fff;
     text-decoration: none;
     cursor: pointer;
 }
+
+
 
 /* table */
 table{
@@ -577,19 +585,25 @@ table{
 }
 
 caption{
-    color: #fff;
     background-color: #ef6a01;
+    border: 1px solid #ef6a01;
+    position: sticky;
+    top: 0;
+    color: #fff;
     padding: 15px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform: uppercase;
     font-size: 1.5em;
     font-weight: bold;
-    border-radius: 100px;
     margin-bottom: 20px;
 }
 
+.table-instalacao td{
+    color: #ef6a01;
+    border: 1px solid #ef6a01;
+}
+
 .table-instalacao, .table-materiais{
-    color: #eee;
     text-transform: uppercase;
     width: 100%;
     font-weight: 600;
@@ -598,25 +612,20 @@ caption{
 }
 
 td, th{
-    background-color: #ef6a01;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-
 }
 
-td{
+td{ 
     background-color: #D8D8D8;
-    color: #ef6a01;
-    border: 1px solid #ef6a01;
+    border: 1px solid #00205b;
+    color: #00205b;
+    font-family: serif;
     font-size: 19px;
     font-weight: 500;
-    font-family: serif;
     text-transform:capitalize;
-
 }
 
-.item{
-    color: #eee;}
     
     thead, tfoot{
         color: #fff;
@@ -914,9 +923,7 @@ td{
         font-size: 13px;
         width: 90%;}
 
-    .modal{
-        background-image: url('./background-table-mobile.png');
-        background-size: 100% 100%;}
+
 }
 @media screen and (max-width:380px){
 
