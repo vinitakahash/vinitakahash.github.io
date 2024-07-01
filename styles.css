@@ -54,17 +54,15 @@ header {
 
 .nav-link {
     text-decoration: none;
-    font-size: 18px;
-    color: #eee;
-    font-weight: 500;
+    font-size: 16px;
+    color: #D8D8D8;
+    font-weight: 600;
     text-transform: uppercase;
 }
 
 .nav-link:hover{
-    padding: 5px; 
     color: #ef6a01; 
-    transition: 0.9s; 
-    border-bottom: 1px solid white;}
+    transition: 0.5s; }
 
 .login-button button {
     border: 1px solid #ef6a01;
@@ -468,7 +466,8 @@ mark{
     margin-top: 20px;
     width: 35%;}
 
-.circle img{width: 300px;}
+.contact-container .elemento{height: 200px;}
+.contact-container .logo-branca{width: 250px;}
 
 /* footer */
 footer{
