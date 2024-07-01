@@ -21,6 +21,7 @@ hr{
 /* header */
 header {
     background-color: #00205b;
+    border-bottom: 3px solid #ef6a01;
     position: sticky;
     top: 0;
     z-index: 3;
@@ -55,7 +56,7 @@ header {
 .nav-link {
     text-decoration: none;
     font-size: 16px;
-    color: #D8D8D8;
+    color: #ebebeb;
     font-weight: 600;
     text-transform: uppercase;
 }
@@ -394,6 +395,8 @@ mark{
     background-color: #ef6a01; 
     color: #fff;}
 
+.solicitacao{color: #fff; text-decoration: none;}
+
 /* contact form */
 
 .contact-container{
@@ -506,7 +509,7 @@ footer > p{
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-image: url('./background-desktop-table.png');
+    background-image: url('./background-table-desktop.png');
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -571,14 +574,15 @@ table{
 }
 
 caption{
-    color: #ef6a01;
-    background-color: transparent;
+    color: #fff;
+    background-color: #ef6a01;
     padding: 15px;
-    border: 1px solid #eee;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-transform: uppercase;
     font-size: 1.5em;
     font-weight: bold;
+    border-radius: 100px;
+    margin-bottom: 20px;
 }
 
 .table-instalacao, .table-materiais{
@@ -591,34 +595,33 @@ caption{
 }
 
 td, th{
-    border: 1px solid #ef6a01;
-    border-top: none;
-    padding: 15px;
+    background-color: #ef6a01;
+    padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 td{
-    background-color: transparent;
-    color: white;
-    border: 1px solid #ccc;
-    font-size: 17px;
-    font-weight: 100;
+    background-color: #D8D8D8;
+    color: #ef6a01;
+    border: 1px solid #ef6a01;
+    font-size: 19px;
+    font-weight: 500;
     font-family: serif;
     text-transform:capitalize;
+
 }
 
-.item{color: #eee;}
-
-.preco{
-    border: 1px solid #eee;}
-
-thead, tfoot{
-    color: #fff;
-    border-top: none;
-}
-
-/* SLIDES */
-section.slider{
+.item{
+    color: #eee;}
+    
+    thead, tfoot{
+        color: #fff;
+        
+    }
+    
+    /* SLIDES */
+    section.slider{
     margin: 0 auto;
     width: 100%;
     height: auto;
@@ -654,13 +657,14 @@ section.slider{
 }
 
 .nav-manual .manual-btn, .nav-auto div{
-    padding: 12px;
+    padding: 10px;
     border-radius: 50%;
     cursor: pointer;
-    border: 2px solid #00205b;
+    border: 1px solid #00205b;
     transition: 0.5s;
 }
 
+/* ultimo elemento-filho */
 /* ultimo elemento-filho */
 .nav-manual .manual-btn:not(:last-child),
 .nav-auto div:not(:last-child){margin-right: 10px;}
@@ -904,7 +908,9 @@ section.slider{
         font-size: 13px;
         width: 90%;}
 
-    .modal{background-image: url('./background-mobile-table.png');}
+    .modal{
+        background-image: url('./background-table-mobile.png');
+        background-size: 100% 100%;}
 }
 @media screen and (max-width:380px){
 
