@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesform.css">
+    <link rel="stylesheet" href="stylesformmateriais.css">
+</head>
+<style>
+</style>
+<body>
+    <div class="container">
+        <div class="navbar-container">
+            <nav>
+                <a href="#">
+                    <img src="./logo-branca.png" alt="JC Elétrica & Solar" class="logo">
+                </a>
+            <ul class="navbar-items">
+                <li>
+                    <a href="./index.html" class="default-btn">Voltar</a>
+                </li>
+                
+            </ul>
+            </nav>
+           
+        </div>
+
+        <form
+  action="https://formspree.io/f/mzzpbvka"
+  method="POST"
+>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Materiais Elétricos</p>
+            </div>
+            <div class="form-body">
+            <div class="box-input">
+                <label for="nome">Nome Completo:<span class="required-field">*</span></label>
+                <input type="text" name="nome" id="name" class="block" placeholder=" Informe seu nome completo" required />
+            </div>
+
+            <div>
+                <label for="telefone">Contato:<span class="required-field">*</span></label>
+                <input type="number" name="telefone" id="contato" class="block" placeholder="(+55) XX XXX-XX">
+            </div>
+
+            <div>
+                <label for="estado">Estado:</label>
+                <select name="estado" required>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="PB">Paraiba</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="BA">Bahia</option>
+                    <option value="PI">Piauí</option>
+                    <option value="CE">Ceará</option>
+                    <option value="MA">Maranhão</option>
+                </select>
+            </div>
+ 
+            <div class="box-input">
+                <label for="bairro">Bairro:<span class="required-field">*</span></label>
+                <input type="text" name="bairro" id="price" class="block" placeholder="Informe o bairro do respectivo estado" required />
+            </div>
+
+            <div class="box-input">
+                <label for="endereco">Endereço:<span class="required-field">*</span></label>
+                <input type="text" name="endereco" id="price" class="block" placeholder="Informe o endereço do local" required />
+            </div>
+
+            <div>
+                <label for="cep">CEP:<span class="required-field">*</span></label>
+                <input type="number" name="cep" id="cep">
+            </div>
+
+
+            
+        <div class="box-input" id="opcoes-mobile">
+            <label for="model">Materiais Elétricos<span class="required-field">*</span></label>
+            <input type="text" list="materiais-eletrica" name="materiais-eletrica" id="model" class="block" placeholder="Informe o produto que deseja"/>
+            <datalist id="materiais-eletrica">
+                    <option value="Materiais de automação">Materiais de automação</option>
+                    <option value="Materiais de infraestrutura">Materiais de infraestrutura</option>
+                    <option value="Eletroduto Rígido e Flexível">Eletroduto Rígido e Flexível</option>
+                    <option value="Eletrocalha">Eletrocalha</option>
+                    <option value="Conduíte Corrugado">Conduíte Corrugado</option>
+                    <option value="Caixa de Passagem">Caixa de Passagem</option>
+                    <option value="Quadros">Quadros</option>
+                    <option value="Painel">Painel</option>
+                    <option value="Caixa de Distribuição">Caixa de Distribuição</option>
+                    <option value="Barramento Blindado">Barramento Blindado</option>
+                    <option value="Ferramentas">Ferramentas</option>
+                    <option value="Chaves de fenda">Chaves de fenda</option>
+                    <option value="Alicates">Alicates</option>
+                    <option value="Multímetros">Multímetros</option>
+                    <option value="Trena">Trena</option>
+                    <option value="Ferro de solda">Ferro de solda</option>
+                    <option value="Furadeira">Furadeira</option>
+                    <option value="Máquinas de corte">Máquinas de corte</option>
+                    <option value="Iluminação em geral">Iluminação em geral</option>
+                    <option value="Gerenciamento de Cabos">Gerenciamento de Cabos</option>
+                    <option value="Canaleta">Canaleta</option>
+                    <option value="Prensa Cabo">Prensa Cabo</option>
+                    <option value="Abraçadeira">Abraçadeira</option>
+                    <option value="Fixador">Fixador</option>
+                    <option value="Identificadores">Identificadores</option>
+                    <option value="Tubo Espiral">Tubo Espiral</option>
+                    <option value="Termocontrátil">Termocontrátil</option>
+                    <option value="Terminais">Terminais</option>
+                    <option value="Fita Isolante">Fita Isolante</option>
+            </datalist>
+
+            <div>
+                <label for="qtd-materiais">Quantidade:<span class="required-field">*</span></label>
+                <input type="number" name="qtd-materiais" id="qtd-materiais">
+            </div>
+            </div>
+           
+        
+            <div class="opcoes-desktop">    
+                <label for="opcao-materiais" class="opcao-materiais">Materiais:</label>
+                <select name="opcao-materiais" required>
+                    <option value="Materiais de automação">Materiais de automação</option>
+                    <option value="Materiais de infraestrutura">Materiais de infraestrutura</option>
+                    <option value="Eletroduto Rígido e Flexível">Eletroduto Rígido e Flexível</option>
+                    <option value="Eletrocalha">Eletrocalha</option>
+                    <option value="Conduíte Corrugado">Conduíte Corrugado</option>
+                    <option value="Caixa de Passagem">Caixa de Passagem</option>
+                    <option value="Quadros">Quadros</option>
+                    <option value="Painel">Painel</option>
+                    <option value="Caixa de Distribuição">Caixa de Distribuição</option>
+                    <option value="Barramento Blindado">Barramento Blindado</option>
+                    <option value="Ferramentas">Ferramentas</option>
+                    <option value="Chaves de fenda">Chaves de fenda</option>
+                    <option value="Alicates">Alicates</option>
+                    <option value="Multímetros">Multímetros</option>
+                    <option value="Trena">Trena</option>
+                    <option value="Ferro de solda">Ferro de solda</option>
+                    <option value="Furadeira">Furadeira</option>
+                    <option value="Máquinas de corte">Máquinas de corte</option>
+                    <option value="Iluminação em geral">Iluminação em geral</option>
+                    <option value="Gerenciamento de Cabos">Gerenciamento de Cabos</option>
+                    <option value="Canaleta">Canaleta</option>
+                    <option value="Prensa Cabo">Prensa Cabo</option>
+                    <option value="Abraçadeira">Abraçadeira</option>
+                    <option value="Fixador">Fixador</option>
+                    <option value="Identificadores">Identificadores</option>
+                    <option value="Tubo Espiral">Tubo Espiral</option>
+                    <option value="Termocontrátil">Termocontrátil</option>
+                    <option value="Terminais">Terminais</option>
+                    <option value="Fita Isolante">Fita Isolante</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+
+                <div>
+                    <label for="qtd-materiais">Quantidade:<span class="required-field">*</span></label>
+                    <input type="number" name="qtd-materiais" id="qtd-materiais">
+                </div>
+            </div>
+
+            <div class="box-input">
+                <label for="descricao" id="comment">Descreva melhor a solicitação:<span class="required-field"> Opcional. </span></label>
+                <textarea name="descricao" class="block"></textarea>
+                </div>
+
+            <div class="box-input">
+                <label for="model">Estabelecimento<span class="required-field">*</span></label>
+                <input type="text" list="estabelecimento" name="estabelecimento" id="model" class="block" placeholder="Informe qual é o estabelecimento"/>
+                <datalist id="estabelecimento">
+                    <option value="Residência"></option>
+                    <option value="Comércio"></option>
+                    <option value="Escola"></option>
+                    <option value="Instituição"></option>
+                </datalist>
+            </div>
+    
+            <div class="box-input">
+                <p>Para melhor compreensão, anexar documentos ou fotografia concernentes há solicitação: <span class="required-field">Opcional. </span></p>
+                <input type="file"  multiple accept="image/png, image/jpg" id="images" name="documentos"/>
+            </div>
+            <div>
+            <input type="submit" value="enviar" class="btn-submit"/>
+            </div>
+        </div>
+    </div>
+
+    <input type="hidden" name="_subject" value="Manutenção Elétrica!">
+    <input type="text" name="_honey" style="display: none">
+    <input type="hidden" name="_captcha" value="false">
+</form>
+
+    <footer>
+        <h2>JC - Elétrica & Solar @2024</h2>
+        <p>Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+</html>

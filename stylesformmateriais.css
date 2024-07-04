@@ -1,0 +1,133 @@
+
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="textarea"]{
+    color: #00205b;
+}
+
+input[type="file"]{border: 1px solid #00205b;}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {-webkit-appearance: none; margin: 0;}
+input:hover{border-bottom: 1px solid #00205b;}
+
+.navbar-container{
+    border-bottom: 1px solid #00205b;
+    background-color: #00205b;
+}
+
+/* form container */
+.form-container{
+    border: 1px solid #00205b;
+}
+
+
+
+/* form header */
+.form-header{
+    border-bottom: 1px solid #dfdfdf;
+    height: 45px;
+}
+.form-header p {
+    color: #00205b;
+    border-bottom: 1px solid #00205b;
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
+    line-height: 45px;
+}
+
+/* form body */
+.form-body{
+    padding: 30px;
+}
+.form-tittle{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.form-body p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.required-field{
+    color: #00205b;
+}
+
+
+.btn-submit{
+    background-color: transparent;
+    color: #00205b;
+    border: 1px solid #00205b;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-left: 43%;
+    transition: 0.9s;
+}
+.btn-submit:hover{
+    background-color: #00205b;
+    color: #fff;
+    border-color: 1px solid #333;
+}
+
+
+.navbar-items a:hover{
+    color: #00205b;}
+
+.navbar-items .default-btn{
+    padding: 15px 20px;
+    border: 1px solid #00205b;
+    border-radius: 5px;
+    margin-right: 50px;
+    color: white;
+}
+
+.navbar-items .default-btn:hover{
+    background-color: #fff;
+    color: #00205b;
+}
+
+
+#name{
+    color: #00205b;
+    width: 50%;
+}
+
+.box-input a{text-decoration: none; color: #00205b;}
+
+
+footer h2{margin-top: 50px; font-size: 20px; color: #00205b;}
+
+@media (max-width:576px){
+    .btn-submit, input[type="radio"]{margin-left: 40%;}
+    
+    #name{width: 70%;}
+
+    input[type="file"]{margin-left: -10%; border: none;}
+
+
+
+        .navbar-container{
+        height: 70px;}
+
+        .navbar-items{
+        line-height: 70px;}
+    
+        .navbar-items .default-btn{
+            padding: 10px 10px;
+            margin-right: 20px;
+            font-size: 13px;
+        }
+
+        .logo{width: 120px; margin-top: 18px; margin-left: -15px;}
+
+        .btn-submit{margin-left: 20%;}
+
+        
+    
+}

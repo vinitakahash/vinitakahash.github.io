@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesform.css">
+    <link rel="stylesheet" href="stylesformmateriais.css">
+</head>
+<style>
+</style>
+<body>
+    <div class="container">
+        <div class="navbar-container">
+            <nav>
+                <a href="#">
+                    <img src="./logo-branca.png" alt="JC Elétrica & Solar" class="logo">
+                </a>
+            <ul class="navbar-items">
+                <li>
+                    <a href="./index.html" class="default-btn">Voltar</a>
+                </li>
+                
+            </ul>
+            </nav>
+           
+        </div>
+
+        <form
+  action="https://formspree.io/f/mqazklgq"
+  method="POST"
+>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Manutenções Elétricas</p>
+            </div>
+            <div class="form-body">
+            <div class="box-input">
+                <label for="nome">Nome Completo:<span class="required-field">*</span></label>
+                <input type="text" name="nome" id="name" class="block" placeholder=" Informe seu nome completo" required />
+            </div>
+
+            <div>
+                <label for="telefone">Contato:<span class="required-field">*</span></label>
+                <input type="number" name="telefone" id="contato" class="block" placeholder="(+55) XX XXX-XX">
+            </div>
+
+            <div>
+                <label for="estado">Estado:</label>
+                <select name="estado" required>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="PB">Paraiba</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="BA">Bahia</option>
+                    <option value="PI">Piauí</option>
+                    <option value="CE">Ceará</option>
+                    <option value="MA">Maranhão</option>
+                </select>
+            </div>
+ 
+            <div class="box-input">
+                <label for="bairro">Bairro:<span class="required-field">*</span></label>
+                <input type="text" name="bairro" id="price" class="block" placeholder="Informe o bairro do respectivo estado" required />
+            </div>
+
+            <div class="box-input">
+                <label for="endereco">Endereço:<span class="required-field">*</span></label>
+                <input type="text" name="endereco" id="price" class="block" placeholder="Informe o endereço do local" required />
+            </div>
+
+            <div>
+                <label for="cep">CEP:<span class="required-field">*</span></label>
+                <input type="number" name="cep" id="cep">
+            </div>
+
+
+            
+        <div class="box-input" id="opcoes-mobile">
+            <label for="model">Manutenções Elétricas<span class="required-field">*</span></label>
+            <input type="text" list="manutencao-eletrica" name="manutencao-eletrica" id="model" class="block" placeholder="Informe que tipo de manutenção elétrica deseja"/>
+            <datalist id="manutencao-eletrica">
+                    <option value="Troca De Disjuntor">Troca De Disjuntor</option>
+                    <option value="Troca De Fusível">Troca De Fusível</option>
+                    <option value="Troca De Fiação Elétrica">Troca De Fiação Elétrica</option>
+                    <option value="Substituição De Caixa De Disjuntores">Substituição De Caixa De Disjuntores</option>
+                    <option value="Reparo De Curto-Circuito">Reparo De Curto-Circuito</option>
+                    <option value="Revisão Geral Em Instalação Elétrica">Revisão Geral Em Instalação Elétrica</option>
+                    <option value="Manutenção Preventiva De Ar Condicionado">Manutenção Preventiva De Ar Condicionado</option>
+                    <option value="Troca De Lâmpadas">Troca De Lâmpadas</option>
+                    <option value="Substituição De Motor Elétrico">Substituição De Motor Elétrico</option>
+                    <option value="Verificação De Aterramento">Verificação De Aterramento</option>
+                    <option value="Manutenção De Quadro De Distribuição">Manutenção De Quadro De Distribuição</option>
+                    <option value="Substituição De Quadro De Distribuição">Substituição De Quadro De Distribuição</option>
+                    <option value="Reparo De Vazamento Em Telhado">Reparo De Vazamento Em Telhado</option>
+                    <option value="Limpeza Dos Painéis Solares">Limpeza Dos Painéis Solares</option>
+                    <option value="Inspeção Visual">Inspeção Visual</option>
+                    <option value="Teste De Desempenho">Teste De Desempenho</option>
+                    <option value="Manutenção Do Inversor">Manutenção Do Inversor</option>
+                    <option value="Teste De Proteção Contra Raios E Surtos">Teste De Proteção Contra Raios E Surtos</option>
+                    <option value="Verificação Da Eficiência Da Inclinação E Orientação">Verificação Da Eficiência Da Inclinação E Orientação</option>
+                    <option value="Substituição De Componentes Desgastados">Substituição De Componentes Desgastados</option>
+                    <option value="Reparo De Danos Nos Painéis Solares">Reparo De Danos Nos Painéis Solares</option>
+                    <option value="Reparo De Vazamentos Em Caixas De Passagem">Reparo De Vazamentos Em Caixas De Passagem</option>
+                    <option value="Verificação E Substituição De Conectores">Verificação E Substituição De Conectores</option>
+                    <option value="Verificação E Limpeza De Condutores Elétricos">Verificação E Limpeza De Condutores Elétricos</option>
+                    <option value="Substituição De Lâmpadas De Sinalização">Substituição De Lâmpadas De Sinalização</option>
+                    <option value="Substituição De Disjuntores De Proteção Contra Sobretensão">Substituição De Disjuntores De Proteção Contra Sobretensão</option>
+                    <option value="Inspeção E Limpeza De Conexões De Aterramento">Inspeção E Limpeza De Conexões De Aterramento</option>
+                    <option value="Inspeção E Limpeza De Condensadores">Inspeção E Limpeza De Condensadores</option>
+                    <option value="Substituição De Parafusos E Arruelas Danificados">Substituição De Parafusos E Arruelas Danificados</option>
+                    <option value="Substituição De Fusíveis De Proteção Queimados">Substituição De Fusíveis De Proteção Queimados</option>
+                    <option value="Substituição De Cabos De Interligação">Substituição De Cabos De Interligação</option>
+                    <option value="Outro">Outro</option>
+            </datalist>
+            </div>
+           
+        
+            <div class="opcoes-desktop">    
+                <label for="opcao-manutencao" class="opcao-manutencao">Manutenção:</label>
+                <select name="opcao-manutencao" required>
+                    <option value="Troca De Disjuntor">Troca De Disjuntor</option>
+                    <option value="Troca De Fusível">Troca De Fusível</option>
+                    <option value="Troca De Fiação Elétrica">Troca De Fiação Elétrica</option>
+                    <option value="Substituição De Caixa De Disjuntores">Substituição De Caixa De Disjuntores</option>
+                    <option value="Reparo De Curto-Circuito">Reparo De Curto-Circuito</option>
+                    <option value="Revisão Geral Em Instalação Elétrica">Revisão Geral Em Instalação Elétrica</option>
+                    <option value="Manutenção Preventiva De Ar Condicionado">Manutenção Preventiva De Ar Condicionado</option>
+                    <option value="Troca De Lâmpadas">Troca De Lâmpadas</option>
+                    <option value="Substituição De Motor Elétrico">Substituição De Motor Elétrico</option>
+                    <option value="Verificação De Aterramento">Verificação De Aterramento</option>
+                    <option value="Manutenção De Quadro De Distribuição">Manutenção De Quadro De Distribuição</option>
+                    <option value="Substituição De Quadro De Distribuição">Substituição De Quadro De Distribuição</option>
+                    <option value="Reparo De Vazamento Em Telhado">Reparo De Vazamento Em Telhado</option>
+                    <option value="Limpeza Dos Painéis Solares">Limpeza Dos Painéis Solares</option>
+                    <option value="Inspeção Visual">Inspeção Visual</option>
+                    <option value="Teste De Desempenho">Teste De Desempenho</option>
+                    <option value="Manutenção Do Inversor">Manutenção Do Inversor</option>
+                    <option value="Teste De Proteção Contra Raios E Surtos">Teste De Proteção Contra Raios E Surtos</option>
+                    <option value="Verificação Da Eficiência Da Inclinação E Orientação">Verificação Da Eficiência Da Inclinação E Orientação</option>
+                    <option value="Substituição De Componentes Desgastados">Substituição De Componentes Desgastados</option>
+                    <option value="Reparo De Danos Nos Painéis Solares">Reparo De Danos Nos Painéis Solares</option>
+                    <option value="Reparo De Vazamentos Em Caixas De Passagem">Reparo De Vazamentos Em Caixas De Passagem</option>
+                    <option value="Verificação E Substituição De Conectores">Verificação E Substituição De Conectores</option>
+                    <option value="Verificação E Limpeza De Condutores Elétricos">Verificação E Limpeza De Condutores Elétricos</option>
+                    <option value="Substituição De Lâmpadas De Sinalização">Substituição De Lâmpadas De Sinalização</option>
+                    <option value="Substituição De Disjuntores De Proteção Contra Sobretensão">Substituição De Disjuntores De Proteção Contra Sobretensão</option>
+                    <option value="Inspeção E Limpeza De Conexões De Aterramento">Inspeção E Limpeza De Conexões De Aterramento</option>
+                    <option value="Inspeção E Limpeza De Condensadores">Inspeção E Limpeza De Condensadores</option>
+                    <option value="Substituição De Parafusos E Arruelas Danificados">Substituição De Parafusos E Arruelas Danificados</option>
+                    <option value="Substituição De Fusíveis De Proteção Queimados">Substituição De Fusíveis De Proteção Queimados</option>
+                    <option value="Substituição De Cabos De Interligação">Substituição De Cabos De Interligação</option>
+                    <option value="Outro">Outro</option>
+
+                </select>
+            </div>
+
+            <div class="box-input">
+                <label for="descricao" id="comment">Descreva melhor a solicitação:<span class="required-field"> Opcional. </span></label>
+                <textarea name="descricao" class="block"></textarea>
+                </div>
+
+            <div class="box-input">
+                <label for="model">Estabelecimento<span class="required-field">*</span></label>
+                <input type="text" list="estabelecimento" name="estabelecimento" id="model" class="block" placeholder="Informe qual é o estabelecimento"/>
+                <datalist id="estabelecimento">
+                    <option value="Residência"></option>
+                    <option value="Comércio"></option>
+                    <option value="Escola"></option>
+                    <option value="Instituição"></option>
+                </datalist>
+            </div>
+    
+            <div class="box-input">
+                <p>Para melhor compreensão, anexar documentos ou fotografia concernentes há solicitação: <span class="required-field">Opcional. </span></p>
+                <input type="file"  multiple accept="image/png, image/jpg" id="images" name="documentos"/>
+            </div>
+            <div>
+            <input type="submit" value="enviar" class="btn-submit"/>
+            </div>
+        </div>
+    </div>
+
+    <input type="hidden" name="_subject" value="Manutenção Elétrica!">
+    <input type="text" name="_honey" style="display: none">
+    <input type="hidden" name="_captcha" value="false">
+</form>
+
+    <footer>
+        <h2>JC - Elétrica & Solar @2024</h2>
+        <p>Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+</html>

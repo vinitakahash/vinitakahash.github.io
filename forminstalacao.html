@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylesform.css">
+</head>
+<style>
+</style>
+<body>
+    <div class="container">
+        <div class="navbar-container">
+            <nav>
+                <a href="#">
+                    <img src="./logo-branca.png" alt="JC Elétrica & Solar" class="logo">
+                </a>
+            <ul class="navbar-items">
+                <li>
+                    <a href="./index.html" class="default-btn">Voltar</a>
+                </li>
+                
+            </ul>
+            </nav>
+           
+        </div>
+
+        <form
+  action="https://formspree.io/f/myzgypbp"
+  method="POST"
+>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Instalações Elétricas</p>
+            </div>
+            <div class="form-body">
+            <div class="box-input">
+                <label for="nome">Nome Completo:<span class="required-field">*</span></label>
+                <input type="text" name="nome" id="name" class="block" placeholder=" Informe seu nome completo" required />
+            </div>
+
+            <div>
+                <label for="telefone">Contato:<span class="required-field">*</span></label>
+                <input type="number" name="telefone" id="contato" class="block" placeholder="(+55) XX XXX-XX">
+            </div>
+
+            <div>
+                <label for="estado">Estado:</label>
+                <select name="estado" required>
+                    <option value="RN">Rio Grande do Norte</option>
+                    <option value="PB">Paraiba</option>
+                    <option value="PE">Pernambuco</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="SE">Sergipe</option>
+                    <option value="BA">Bahia</option>
+                    <option value="PI">Piauí</option>
+                    <option value="CE">Ceará</option>
+                    <option value="MA">Maranhão</option>
+                </select>
+            </div>
+ 
+            <div class="box-input">
+                <label for="bairro">Bairro:<span class="required-field">*</span></label>
+                <input type="text" name="bairro" id="price" class="block" placeholder="Informe o bairro do respectivo estado" required />
+            </div>
+
+            <div class="box-input">
+                <label for="endereco">Endereço:<span class="required-field">*</span></label>
+                <input type="text" name="endereco" id="price" class="block" placeholder="Informe o endereço do local" required />
+            </div>
+
+            <div>
+                <label for="cep">CEP:<span class="required-field">*</span></label>
+                <input type="number" name="cep" id="cep">
+            </div>
+
+
+           
+            
+            <div class="box-input" id="opcoes-mobile">
+                <label for="model">Instalação Elétrica<span class="required-field">*</span></label>
+                <input type="text" list="instalacao-eletrica" name="instalacao-eletrica" id="model" class="block" placeholder="Informe qual instalação elétrica deseja"/>
+                <datalist id="instalacao-eletrica">
+                    <option value="Tomada Simples"></option>
+                    <option value="Tomada Dupla"></option>
+                    <option value="Tomada 20A"></option>
+                    <option value="Interruptor Simples"></option>
+                    <option value="Interruptor Duplo"></option>
+                    <option value="Dimmer"></option>
+                    <option value="Lustre Com Dimmer"></option>
+                    <option value="Luminária De Embutir"></option>
+                    <option value="Luminária De Sobrepor"></option>
+                    <option value="Lustre"></option>
+                    <option value="Chuveiro Elétrico"></option>
+                    <option value="Campainha">Campainha</option>
+                    <option value="Sensor De Presença">Sensor De Presença</option>
+                    <option value="Quadro De Distribuição Trifásico">Quadro De Distribuição Trifásico</option>
+                    <option value="Sensor De Presença Com Fotocélula">Sensor De Presença Com Fotocélula</option>
+                    <option value="Ventilador De Teto">Ventilador De Teto</option>
+                    <option value="Ventilador De Parede">Ventilador De Parede</option>
+                    <option value="Câmeras">Câmeras</option>
+                    <option value="Cerca Elétrica">Cerca Elétrica</option>
+                    <option value="Interfone Residencial">Interfone Residencial</option>
+                    <option value="Barramento Terra">Barramento Terra</option>
+                    <option value="Barramento De Cobre">Barramento De Cobre</option>
+                    <option value="Sistema De Iluminação LED">Sistema De Iluminação LED</option>
+                    <option value="Tomada De Telefone">Tomada De Telefone</option>
+                    <option value="Tomada De Internet">Tomada De Internet</option>
+                    <option value="Sistema De Segurança">Sistema De Segurança</option>
+                    <option value="Ar Condicionado">Ar Condicionado</option>
+                    <option value="Ventilador De Teto">Ventilador De Teto</option>
+                    <option value="Interfones">Interfones</option>
+                    <option value="Bomba D'água">Bomba D'água</option>
+                    <option value="Aquecedor De Água Elétrico">Aquecedor De Água Elétrico</option>
+                    <option value="Tomada USB">Tomada USB</option>
+                    <option value="Barramento Blindado">Barramento Blindado</option>
+                    <option value="Sistema De Aterramento">Sistema De Aterramento</option>
+                    <option value="Nobreak">Nobreak</option>
+                    <option value="Pontos De Recarga Para Veículos Elétricos">Pontos De Recarga Para Veículos Elétricos</option>
+                    <option value="Iluminação De Emergência">Iluminação De Emergência</option>
+                    <option value="Sistema De Proteção Contra Descargas Atmosféricas">Sistema De Proteção Contra Descargas Atmosféricas</option>
+                    <option value="Outro">Outro</option>
+                </datalist>
+            </div>
+
+                
+                <div class="opcoes-desktop">
+                <label for="opcao-instalacao">Instalação Elétrica:</label>
+                <select name="opcao-instalacao" required>
+                    <option value="Tomada Simples">Tomada Simples</option>
+                    <option value="Tomada Dupla">Tomada Dupla</option>
+                    <option value="Tomada 20A">Tomada 20A</option>
+                    <option value="Interruptor Simples">Interruptor Simples</option>
+                    <option value="Interruptor Duplo">Interruptor Duplo</option>
+                    <option value="Dimmer">Dimmer</option>
+                    <option value="Lustre Com Dimmer">Lustre Com Dimmer</option>
+                    <option value="Luminária De Embutir">Luminária De Embutir</option>
+                    <option value="Luminária De Sobrepor">Luminária De Sobrepor</option>
+                    <option value="Lustre">Lustre</option>
+                    <option value="Chuveiro Elétrico">Chuveiro Elétrico</option>
+                    <option value="Campainha">Campainha</option>
+                    <option value="Sensor De Presença">Sensor De Presença</option>
+                    <option value="Quadro De Distribuição Trifásico">Quadro De Distribuição Trifásico</option>
+                    <option value="Sensor De Presença Com Fotocélula">Sensor De Presença Com Fotocélula</option>
+                    <option value="Ventilador De Teto">Ventilador De Teto</option>
+                    <option value="Ventilador De Parede">Ventilador De Parede</option>
+                    <option value="Câmeras">Câmeras</option>
+                    <option value="Cerca Elétrica">Cerca Elétrica</option>
+                    <option value="Interfone Residencial">Interfone Residencial</option>
+                    <option value="Barramento Terra">Barramento Terra</option>
+                    <option value="Barramento De Cobre">Barramento De Cobre</option>
+                    <option value="Sistema De Iluminação LED">Sistema De Iluminação LED</option>
+                    <option value="Tomada De Telefone">Tomada De Telefone</option>
+                    <option value="Tomada De Internet">Tomada De Internet</option>
+                    <option value="Sistema De Segurança">Sistema De Segurança</option>
+                    <option value="Ar Condicionado">Ar Condicionado</option>
+                    <option value="Ventilador De Teto">Ventilador De Teto</option>
+                    <option value="Interfones">Interfones</option>
+                    <option value="Bomba D'água">Bomba D'água</option>
+                    <option value="Aquecedor De Água Elétrico">Aquecedor De Água Elétrico</option>
+                    <option value="Tomada USB">Tomada USB</option>
+                    <option value="Barramento Blindado">Barramento Blindado</option>
+                    <option value="Sistema De Aterramento">Sistema De Aterramento</option>
+                    <option value="Nobreak">Nobreak</option>
+                    <option value="Pontos De Recarga Para Veículos Elétricos">Pontos De Recarga Para Veículos Elétricos</option>
+                    <option value="Iluminação De Emergência">Iluminação De Emergência</option>
+                    <option value="Sistema De Proteção Contra Descargas Atmosféricas">Sistema De Proteção Contra Descargas Atmosféricas</option>
+                    <option value="Outro">Outro</option>
+                </select>
+            </div>
+
+            <div class="box-input">
+                <label for="descricao" id="comment">Descreva melhor a solicitação:<span class="required-field"> Opcional. </span></label>
+                <textarea name="descricao" class="block"></textarea>
+                </div>
+
+            <div class="box-input">
+                <label for="model">Estabelecimento<span class="required-field">*</span></label>
+                <input type="text" list="estabelecimento" name="estabelecimento" id="model" class="block" placeholder="Informe qual é o estabelecimento"/>
+                <datalist id="estabelecimento">
+                    <option value="Residência"></option>
+                    <option value="Comércio"></option>
+                    <option value="Escola"></option>
+                    <option value="Instituição"></option>
+                </datalist>
+            </div>
+    
+            <div class="box-input">
+                <p>Para melhor compreensão, anexar documentos ou fotografia concernentes há solicitação: <span class="required-field">Opcional. </span></p>
+                <input type="file"  multiple accept="image/png, image/jpg" id="images" name="documentos"/>
+            </div>
+            <div>
+            <input type="submit" value="enviar" class="btn-submit"/>
+            </div>
+        </div>
+    </div>
+
+    <input type="hidden" name="_subject" value="Instalação Elétrica!">
+    <input type="text" name="_honey" style="display: none">
+    <input type="hidden" name="_captcha" value="false">
+</form>
+
+    <footer>
+        <h2>JC - Elétrica & Solar @2024</h2>
+        <p>Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
